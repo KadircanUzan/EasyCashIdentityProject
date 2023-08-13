@@ -1,0 +1,2 @@
+﻿Öncelikli olarak concrete ifadesi somut değerler için kullanılır. 
+Soyut ifadeler yani Interfaceler için ise abstract kullanılır.

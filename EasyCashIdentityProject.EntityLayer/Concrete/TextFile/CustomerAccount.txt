@@ -1,0 +1,12 @@
+﻿CustomerAccount sınıfı müşteri hesap bilgilerini tutmamızı sağlayacak olacak sınıftır.
+
+CustomerAccountID: Müşteri Hesabı Id sini belirtmemiz gerekmektedir.
+Primary key ve birer birer otomatik artar olacaktır.
+
+CustomerAccountNumber: Hesap oluşturulurken verilen numara olsun.
+
+CustomerAccountCurrency: Döviz bilgisini alabiliriz.
+
+CustomerAccountCurrency: Bakiye de ne kadar miktar olduğuna bakabiliriz.
+
+CustomerAccountBankBranch: Banka şubesinin adını girelim.

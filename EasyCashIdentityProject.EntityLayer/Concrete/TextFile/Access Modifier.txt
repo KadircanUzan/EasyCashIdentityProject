@@ -1,0 +1,4 @@
+﻿Public:Nesnelerin proje içerisindeki tüm yerden erişimin sağlamak için kullanılır.
+Private:Sadece içerisinde bulunduğu sınıftan erişim sağlanabiliyor.
+Protected:Bağlı olduğu sınıftan ve o sınıfın kalıtım aldığı sınıflardan erişimine izin verilir.
+Internal:Sadece bulunduğu katmandan erişim sağlanır.

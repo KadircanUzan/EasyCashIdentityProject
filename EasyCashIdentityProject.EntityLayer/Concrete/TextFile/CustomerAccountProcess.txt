@@ -1,0 +1,12 @@
+﻿CustomerAccountProcess sınıfı müşteri hesap hareketlerini tuttuğumuz sınıftır.
+
+CustomerAccountProcessID: Müşteri Hesabı Id sini belirtmemiz gerekmektedir.
+Primary key ve birer birer otomatik artar olacaktır.
+
+CustomerAccountProcessType:İşlem türünü belirtebiliriz.
+
+CustomerAccountProcessAmount: Ne kadar para gönderildiğini öğrenmek istediğimiz property
+
+CustomerAccountProcessDate: Bakiye de ne kadar miktar olduğuna bakabiliriz.
+
+Bunlar için gönderici ve alıcıyı AppUser da tutabiliriz.
