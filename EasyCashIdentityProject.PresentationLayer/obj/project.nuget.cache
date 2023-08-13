@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5yufYBOoleN6u6peCtX3IY91Ak/z8IS/vtz2BhtYiMSFC6Dd9MUw3vIz4ZvsuO2DY0miJg43rZYV/qJXvGxHfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kadircan\\Desktop\\EasyCashIdentityProject\\EasyCashIdentityProject\\EasyCashIdentityProject.PresentationLayer\\EasyCashIdentityProject.PresentationLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kadircan\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
