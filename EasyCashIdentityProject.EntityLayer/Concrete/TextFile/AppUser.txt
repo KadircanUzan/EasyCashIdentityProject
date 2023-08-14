@@ -1,0 +1,16 @@
+﻿AppUser sınıfı IdentityUser dan kalıtım alarak eklemek istediğimiz propertyleri ekliyeceğiz.
+User ın ismini, soyismini, ilçesini , şehrini ve resmini de tutmak istiyorum. 
+(
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string District { get; set; }
+        public string City { get; set; }
+        public string ImageUrl { get; set; }
+)
+
+Aynı zamanda IdentityUser içerisinde Id string olarak alınmıştır. Burada bizim çalışmalarımızda Id değerlerinin degişken türünü integera çevirebiliriz.
+(
+        public class AppUser:IdentityUser<int> 
+)
+AppUser ve AppRole içinde Key değiştirdik.
+       
