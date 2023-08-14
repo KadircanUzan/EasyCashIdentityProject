@@ -1606,6 +1606,57 @@
             "rid": "win"
           }
         }
+      },
+      "EasyCashIdentityProject.BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "EasyCashIdentityProject.DataAccessLayer": "1.0.0",
+          "EasyCashIdentityProject.EntityLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10"
+        },
+        "compile": {
+          "bin/placeholder/EasyCashIdentityProject.BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EasyCashIdentityProject.BusinessLayer.dll": {}
+        }
+      },
+      "EasyCashIdentityProject.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "EasyCashIdentityProject.EntityLayer": "1.0.0",
+          "Microsoft.AspNet.Identity.Core": "2.2.4",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
+          "Microsoft.EntityFrameworkCore": "7.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10"
+        },
+        "compile": {
+          "bin/placeholder/EasyCashIdentityProject.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EasyCashIdentityProject.DataAccessLayer.dll": {}
+        }
+      },
+      "EasyCashIdentityProject.EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNet.Identity.Core": "2.2.4",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
+          "Microsoft.EntityFrameworkCore": "7.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10"
+        },
+        "compile": {
+          "bin/placeholder/EasyCashIdentityProject.EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EasyCashIdentityProject.EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -4412,10 +4463,28 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EasyCashIdentityProject.BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../EasyCashIdentityProject.BusinessLayer/EasyCashIdentityProject.BusinessLayer.csproj",
+      "msbuildProject": "../EasyCashIdentityProject.BusinessLayer/EasyCashIdentityProject.BusinessLayer.csproj"
+    },
+    "EasyCashIdentityProject.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../EasyCashIdentityProject.DataAccessLayer/EasyCashIdentityProject.DataAccessLayer.csproj",
+      "msbuildProject": "../EasyCashIdentityProject.DataAccessLayer/EasyCashIdentityProject.DataAccessLayer.csproj"
+    },
+    "EasyCashIdentityProject.EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../EasyCashIdentityProject.EntityLayer/EasyCashIdentityProject.EntityLayer.csproj",
+      "msbuildProject": "../EasyCashIdentityProject.EntityLayer/EasyCashIdentityProject.EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "EasyCashIdentityProject.BusinessLayer >= 1.0.0",
+      "EasyCashIdentityProject.DataAccessLayer >= 1.0.0",
+      "EasyCashIdentityProject.EntityLayer >= 1.0.0",
       "Microsoft.AspNet.Identity.Core >= 2.2.4",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.10",
@@ -4457,7 +4526,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Kadircan\\Desktop\\EasyCashIdentityProject\\EasyCashIdentityProject\\EasyCashIdentityProject.BusinessLayer\\EasyCashIdentityProject.BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Kadircan\\Desktop\\EasyCashIdentityProject\\EasyCashIdentityProject\\EasyCashIdentityProject.BusinessLayer\\EasyCashIdentityProject.BusinessLayer.csproj"
+            },
+            "C:\\Users\\Kadircan\\Desktop\\EasyCashIdentityProject\\EasyCashIdentityProject\\EasyCashIdentityProject.DataAccessLayer\\EasyCashIdentityProject.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Kadircan\\Desktop\\EasyCashIdentityProject\\EasyCashIdentityProject\\EasyCashIdentityProject.DataAccessLayer\\EasyCashIdentityProject.DataAccessLayer.csproj"
+            },
+            "C:\\Users\\Kadircan\\Desktop\\EasyCashIdentityProject\\EasyCashIdentityProject\\EasyCashIdentityProject.EntityLayer\\EasyCashIdentityProject.EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\Kadircan\\Desktop\\EasyCashIdentityProject\\EasyCashIdentityProject\\EasyCashIdentityProject.EntityLayer\\EasyCashIdentityProject.EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

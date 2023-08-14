@@ -1,0 +1,14 @@
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\bin\Debug\net7.0\EasyCashIdentityProject.EntityLayer.deps.json
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\bin\Debug\net7.0\EasyCashIdentityProject.EntityLayer.runtimeconfig.json
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\bin\Debug\net7.0\EasyCashIdentityProject.EntityLayer.dll
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\bin\Debug\net7.0\EasyCashIdentityProject.EntityLayer.pdb
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\EasyCashIdentityProject.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\EasyCashIdentityProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\EasyCashIdentityProject.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\EasyCashIdentityProject.EntityLayer.AssemblyInfo.cs
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\EasyCashIdentityProject.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\EasyCashIdentityProject.EntityLayer.dll
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\refint\EasyCashIdentityProject.EntityLayer.dll
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\EasyCashIdentityProject.EntityLayer.pdb
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\EasyCashIdentityProject.EntityLayer.genruntimeconfig.cache
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.EntityLayer\obj\Debug\net7.0\ref\EasyCashIdentityProject.EntityLayer.dll

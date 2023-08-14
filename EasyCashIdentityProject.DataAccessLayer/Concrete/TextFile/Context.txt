@@ -1,0 +1,15 @@
+﻿Migration uygularken normalde DbContext sınıfından miras alıyoruz.
+Bu projede IdentityDbContext miras alıyoruz.
+Veri tabanı bağlantısını oluşturuyoruz.
+(
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("server=DESKTOP-D4V39LT\\MSSQLSERVER2022; initial catalog=EasyCashDb;integrated Security=true");
+        }
+)
+
+Database de yani Sql içerisinde tablo sınıflarımızın tablo isimlerini DbSet yardımı ile veriyorz.
+(
+        public DbSet<CustomerAccount> CustomerAccounts { get; set; }
+        public DbSet<CustomerAccountProcess> CustomerAccountProcesses { get; set; }
+)
