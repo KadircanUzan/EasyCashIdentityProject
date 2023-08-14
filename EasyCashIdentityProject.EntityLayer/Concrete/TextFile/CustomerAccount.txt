@@ -10,3 +10,7 @@ CustomerAccountCurrency: Döviz bilgisini alabiliriz.
 CustomerAccountCurrency: Bakiye de ne kadar miktar olduğuna bakabiliriz.
 
 CustomerAccountBankBranch: Banka şubesinin adını girelim.
+
+AppUserID :Kullanıcının hesabının ID si ile ilişkilendirilmesi.
+
+AppUser : Bir kullanıcının ona ait bir hesap numarası vardır.

@@ -1,0 +1,2 @@
+﻿Dto katmanında yapmak istediğimiz bütün property ler yerine sadece işlem yapmak istediğimiz propertyleri Dto katmanında kullanıyor olacağız.
+Validationları yapmıyoruz.Çünkü Single Responsiblity uymadığı için onu da Fluent validationa bağlıyacağız.

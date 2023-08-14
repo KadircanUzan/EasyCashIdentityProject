@@ -13,4 +13,6 @@ Aynı zamanda IdentityUser içerisinde Id string olarak alınmıştır. Burada b
         public class AppUser:IdentityUser<int> 
 )
 AppUser ve AppRole içinde Key değiştirdik.
+
+CustomerAccount List olarak tanımlıyoruz.Çünkü bir kişinin birden fazla hesabı olabilir.
        
