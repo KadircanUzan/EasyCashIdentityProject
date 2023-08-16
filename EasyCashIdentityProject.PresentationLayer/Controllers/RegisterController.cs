@@ -24,18 +24,30 @@ namespace EasyCashIdentityProject.PresentationLayer.Controllers
         {
             if(ModelState.IsValid)
             {
+                Random random = new Random();
                 AppUser appUser = new AppUser()
                 {
                     UserName = appUserRegisterDto.UserName,
                     Name = appUserRegisterDto.Name,
                     Surname = appUserRegisterDto.Surname,
                     Email = appUserRegisterDto.Email,
+                    City = "aaa",
+                    District = "sss",
+                    ImageUrl = "asd",
+                    ConfirmCode = random.Next(1000, 100000)
                 };
 
                 var result = await _userManager.CreateAsync(appUser,appUserRegisterDto.Password);
                 if (result.Succeeded)
                 {
                     return RedirectToAction("Index","ConfirmMail");
+                }
+                else
+                {
+                    foreach (var item in result.Errors)
+                    {
+                        ModelState.AddModelError("", item.Description);
+                    }
                 }
             }
 
