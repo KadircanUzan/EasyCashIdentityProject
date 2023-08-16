@@ -1,3 +1,7 @@
+using EasyCashIdentityProject.DataAccessLayer.Concrete;
+using EasyCashIdentityProject.DataAccessLayer.Migrations;
+using EasyCashIdentityProject.EntityLayer.Concrete;
+
 namespace EasyCashIdentityProject.PresentationLayer
 {
     public class Program
@@ -5,6 +9,8 @@ namespace EasyCashIdentityProject.PresentationLayer
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<Context>();
+            builder.Services.AddIdentity<AppUser,AppRole>().AddEntityFrameworkStores<Context>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -23,7 +29,7 @@ namespace EasyCashIdentityProject.PresentationLayer
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
