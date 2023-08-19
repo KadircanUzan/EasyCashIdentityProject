@@ -270,3 +270,7 @@ C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCa
 C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.PresentationLayer\bin\Debug\net7.0\EasyCashIdentityProject.DtoLayer.dll
 C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.PresentationLayer\bin\Debug\net7.0\EasyCashIdentityProject.DtoLayer.pdb
 C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.PresentationLayer\obj\Debug\net7.0\EasyCashIdentityProject.PresentationLayer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.PresentationLayer\bin\Debug\net7.0\MailKit.dll
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.PresentationLayer\bin\Debug\net7.0\MimeKit.dll
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.PresentationLayer\bin\Debug\net7.0\NETCore.MailKit.dll
+C:\Users\Kadircan\Desktop\EasyCashIdentityProject\EasyCashIdentityProject\EasyCashIdentityProject.PresentationLayer\bin\Debug\net7.0\BouncyCastle.Crypto.dll
