@@ -36,9 +36,10 @@ namespace EasyCashIdentityProject.PresentationLayer.Controllers
                     Name = appUserRegisterDto.Name,
                     Surname = appUserRegisterDto.Surname,
                     Email = appUserRegisterDto.Email,
-                    City = "aaa",
-                    District = "sss",
-                    ImageUrl = "asd",
+                    City = appUserRegisterDto.City,
+                    District = appUserRegisterDto.District,
+                    ImageUrl = appUserRegisterDto.ImageUrl,
+                    PhoneNumber = appUserRegisterDto.PhoneNumber,
                     ConfirmCode = code
                 };
 
@@ -59,7 +60,7 @@ namespace EasyCashIdentityProject.PresentationLayer.Controllers
 
                     SmtpClient smtpClient = new SmtpClient();
                     smtpClient.Connect("smtp.gmail.com", 587 , false);
-                    smtpClient.Authenticate("kadircanuzan@gmail.com", "xegzojspisspajvc");
+                    smtpClient.Authenticate("kadircanuzan@gmail.com", "lobukadtsipvwjtk");
                     smtpClient.Send(mineMessage);
                     smtpClient.Disconnect(true);
 

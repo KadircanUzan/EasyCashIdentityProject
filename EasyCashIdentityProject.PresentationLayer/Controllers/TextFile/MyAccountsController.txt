@@ -1,0 +1,5 @@
+﻿ [Authorize]
+    public class MyAccountsController : Controller
+
+-Burada kullanılan attribute [Authorize] eklenildiği zaman artık kullanıcının login olması gerekmektedir.
+-Bu sayfayı 404 hatası ile eğer login kullanmaz isek döner.
