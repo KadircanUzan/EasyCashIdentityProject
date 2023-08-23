@@ -13,5 +13,22 @@ namespace EasyCashIdentityProject.DataAccessLayer.Concrete
         }
         public DbSet<CustomerAccount> CustomerAccounts { get; set; }
         public DbSet<CustomerAccountProcess> CustomerAccountProcesses { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.Entity<CustomerAccountProcess>()
+                   .HasOne(s=>s.SenderCustomer)
+                   .WithMany(c=>c.CustomerSender)
+                   .HasForeignKey(s=>s.CustomerSenderId)
+                   .OnDelete(DeleteBehavior.ClientSetNull);
+
+            builder.Entity<CustomerAccountProcess>()
+                   .HasOne(r => r.ReceiverCustomer)
+                   .WithMany(c => c.CustomerReceiver)
+                   .HasForeignKey(r => r.CustomerReceiverId)
+                   .OnDelete(DeleteBehavior.ClientSetNull);
+                   
+        }
     }
 }

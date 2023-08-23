@@ -194,7 +194,17 @@ namespace EasyCashIdentityProject.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("CustomerReceiverId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CustomerSenderId")
+                        .HasColumnType("int");
+
                     b.HasKey("CustomerAccountProcessID");
+
+                    b.HasIndex("CustomerReceiverId");
+
+                    b.HasIndex("CustomerSenderId");
 
                     b.ToTable("CustomerAccountProcesses");
                 });
@@ -313,6 +323,21 @@ namespace EasyCashIdentityProject.DataAccessLayer.Migrations
                     b.Navigation("AppUser");
                 });
 
+            modelBuilder.Entity("EasyCashIdentityProject.EntityLayer.Concrete.CustomerAccountProcess", b =>
+                {
+                    b.HasOne("EasyCashIdentityProject.EntityLayer.Concrete.CustomerAccount", "ReceiverCustomer")
+                        .WithMany("CustomerReceiver")
+                        .HasForeignKey("CustomerReceiverId");
+
+                    b.HasOne("EasyCashIdentityProject.EntityLayer.Concrete.CustomerAccount", "SenderCustomer")
+                        .WithMany("CustomerSender")
+                        .HasForeignKey("CustomerSenderId");
+
+                    b.Navigation("ReceiverCustomer");
+
+                    b.Navigation("SenderCustomer");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
                     b.HasOne("EasyCashIdentityProject.EntityLayer.Concrete.AppRole", null)
@@ -367,6 +392,13 @@ namespace EasyCashIdentityProject.DataAccessLayer.Migrations
             modelBuilder.Entity("EasyCashIdentityProject.EntityLayer.Concrete.AppUser", b =>
                 {
                     b.Navigation("CustomerAccounts");
+                });
+
+            modelBuilder.Entity("EasyCashIdentityProject.EntityLayer.Concrete.CustomerAccount", b =>
+                {
+                    b.Navigation("CustomerReceiver");
+
+                    b.Navigation("CustomerSender");
                 });
 #pragma warning restore 612, 618
         }
